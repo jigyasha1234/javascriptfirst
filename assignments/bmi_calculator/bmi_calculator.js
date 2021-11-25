@@ -5,13 +5,13 @@ function BMICalculator(mass, height) {
         return("INVALID INPUT");
     }
     else{
-    var BMI;
-    BMI = mass / (height * height);
-    if(BMI<=0){
+    var bmi;
+    bmi = mass / (height * height);
+    if(bmi<=0){
         return("INVALID INPUT");
     }
     else{
-    return(BMI);
+    return(bmi);
     }    
 }
 }
